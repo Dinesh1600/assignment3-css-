@@ -1,0 +1,187 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url("chocoback2.avif");
+    
+    background-attachment: fixed;
+    opacity: 0.9;
+    
+  }
+h1{
+    font-family:Arial, Helvetica, sans-serif, sans-serif ;
+}
+section{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-bottom: 0;
+}
+#images h2{
+    margin-top: 0;
+}
+#nutrition h2{
+    margin-top:0;
+}
+#top-image{
+    height: 150px;
+}
+  
+  header {
+    background-color: rgba(241, 178, 188,0.7);
+    text-align: center;
+    padding: 20px;
+    color:white;
+  }
+  
+  
+  #intro {
+    display: flex;
+    align-items: flex-start; /* align items at the top */
+    height: 300px;
+    background-color: #f7c289;
+  }
+  
+  
+  .introduction {
+    
+    width: 900px;
+    height: 243px;
+    margin-left: 10px;
+    margin-right: 70px; 
+    transition: box-shadow 0.7s;
+  }
+  .fact {
+    
+    height: 243px;
+    width: 300px;
+  }
+  .fact h2{
+    margin-bottom: 0;
+  }
+  .fact-content{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7c289;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 0;
+    transition: color 0.8s,background-color 0.8s, box-shadow 0.8s;
+  }
+  .fact-content:hover{
+    color:#f7c289;
+    background-color:white;
+    box-shadow: 1px 1px 4px black;
+  }
+  
+  #intro h2{
+    text-align: center;
+  }
+  
+  #intro {
+    background-color: #fff;
+    font-size: large;
+  }
+  
+  #intro ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  #images {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  #images img {
+    margin: 10px;
+    height: 250px;
+  }
+  
+  #nutrition {
+    background-color: #fff;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f7c289;
+    color: #fff;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f7c289;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+  }
+  .image-section{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #logo img {
+    width: 100px;
+  }
+  
+  #company-info {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  #contact-form {
+    flex: 2;
+  }
+  
+  #contact-form h3 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #f7c289;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f7c289;
+    color: #fff;
+  }
+  #nutrition,footer{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+  }
